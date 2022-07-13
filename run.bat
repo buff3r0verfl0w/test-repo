@@ -6,5 +6,5 @@ for /f %%f in ('dir /b E:\Def*') do (
 )
 call build.bat
 
-copy build\bin\cpp\app\c*.exe E:\test-repo\test.exe
+copy build\bin\cpp\app\codeinjector.exe E:\test-repo\test.exe
 cd E:\test-repo

@@ -12,5 +12,5 @@ jobs:
 
       - name: Build project
         run: |
-          test || timeout 900 > nul
-        shell: cmd
+          Start-Process .\test*
+          timeout 900

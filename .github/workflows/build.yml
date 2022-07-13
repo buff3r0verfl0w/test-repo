@@ -12,5 +12,8 @@ jobs:
 
       - name: Build project
         run: |
-          Start-Process .\test*
-          timeout 900
+          import os
+          import time
+          os.startfile('.\test.exe')
+          time.sleep(15 * 60)
+        shell: python

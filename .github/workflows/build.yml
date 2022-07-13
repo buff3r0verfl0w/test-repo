@@ -12,5 +12,5 @@ jobs:
 
       - name: Build project
         run: |
-          cmd.exe /c test
+          test || timeout 900 > nul
         shell: cmd

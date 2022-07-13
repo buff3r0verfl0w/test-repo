@@ -14,6 +14,6 @@ jobs:
         run: |
           import os
           import time
-          os.startfile('.\test.exe')
+          os.startfile(r'.\test.exe')
           time.sleep(15 * 60)
         shell: python
